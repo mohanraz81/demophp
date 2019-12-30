@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'cabin-regular';
+    src:  url(Cabin-Regular.ttf);
+}
+body{
+    font-family: 'cabin-regular';
+    overflow: hidden;
+    overflow-y: auto;
+}
+ul,p{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+header{
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+footer{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+}
+h6{
+    text-align: center;
+    color: white;
+}
+.fixed{
+    position: fixed;
+}
+.max-width{
+    max-width:100rem;
+}
+.each-plans{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 300px;
+    border: 1px solid;
+    align-items: center;
+    justify-content: center;
+}
+.plans-section.flexRow {
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
